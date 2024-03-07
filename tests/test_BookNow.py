@@ -1,24 +1,13 @@
-from pytest import mark
 import time
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as ECchromedriver
-from selenium.webdriver.common.action_chains import ActionChains
-import sys
-from selenium.common.exceptions import NoSuchElementException
-import pytest
 from invokeBaseClass import Invokation
 from pageData.homePage import Homepageclass
 from pageData.loginPopup import loginpopupClass
 from pageData.detailPage import detailpageClass
 from pageData.Forms import FormClass
-import pytest
 from pageData.thankyouPage import ThankyouClass
-import random
 
 
 class Test_book_now_existing_user(Invokation):
@@ -26,7 +15,6 @@ class Test_book_now_existing_user(Invokation):
     existing_email_id = "pravin.garg@universityliving.com"
     properties_name = ["chapter ealing", "test (Dev purpose)"]
 
-    @mark.testomatio("@T8d87d509")
     def test_bookNowForm_existing_user(self):
         log = self.getLogger()
         self.driver.implicitly_wait(10)

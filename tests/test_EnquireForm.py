@@ -1,22 +1,11 @@
-from pytest import mark
 import time
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as ECchromedriver
-from selenium.webdriver.common.action_chains import ActionChains
-import sys
-from selenium.common.exceptions import NoSuchElementException
-import pytest
 from invokeBaseClass import Invokation
 from pageData.homePage import Homepageclass
-from pageData.loginPopup import loginpopupClass
 from pageData.detailPage import detailpageClass
 from pageData.Forms import FormClass
-import pytest
 
 
 class Test_Enquire_exisitng_user(Invokation):
@@ -24,7 +13,6 @@ class Test_Enquire_exisitng_user(Invokation):
     chapter_ealing_thankYou_url = "https://www.universityliving.com/united-kingdom/london/chapter-ealing/enquire-now/thank-you"
     scape_melbourne_central_thankyou_url = "https://www.universityliving.com/australia/melbourne/scape-melbourne-central/enquire-now/thank-you"
 
-    @mark.testomatio("@T55cdff50")
     def test_enquire_form_existing_user(self):
         log = self.getLogger()
         self.driver.implicitly_wait(5)

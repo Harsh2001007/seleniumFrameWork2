@@ -1,23 +1,12 @@
 from pytest import mark
 import time
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as ECchromedriver
-from selenium.webdriver.common.action_chains import ActionChains
-import sys
-from selenium.common.exceptions import NoSuchElementException
-import pytest
 from invokeBaseClass import Invokation
 from pageData.homePage import Homepageclass
 from pageData.detailPage import detailpageClass
 from pageData.Forms import FormClass
-from pageData.roomReplacement import roomreplacementclass
-from pageData.services import Servicesclass
-import pytest
 import string
 import random
 

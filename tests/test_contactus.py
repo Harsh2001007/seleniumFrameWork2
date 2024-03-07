@@ -1,20 +1,8 @@
-from pytest import mark
 import time
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.select import Select
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as ECchromedriver
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.common.exceptions import NoSuchElementException
 from invokeBaseClass import Invokation
 from pageData.homePage import Homepageclass
-from pageData.loginPopup import loginpopupClass
-from pageData.detailPage import detailpageClass
-from pageData.Forms import FormClass
 from pageData.contactusPage import contactusClass
-import pytest
 import string
 import random
 
@@ -26,7 +14,6 @@ class Test_contact_us_form(Invokation):
     phone_number = "".join([str(random.randint(0, 9)) for i in range(10)])
     newEmail = res + "@yopmail.com"
 
-    @mark.testomatio("@Tf048ee5a")
     def test_contact_us_form(self):
         log = self.getLogger()
         contactpageUrl = "https://www.universityliving.com/contact"
