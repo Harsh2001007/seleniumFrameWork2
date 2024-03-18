@@ -27,6 +27,8 @@ def setup(request):
     if browser_name == "chrome":
         chrome_options = webdriver.ChromeOptions()
         chrome_options.add_argument("--disable-notifications")
+        # chrome_options.add_argument("--headless")
+        # chrome_options.add_argument("log-level=3")
         driver = webdriver.Chrome(options=chrome_options)
 
         driver.get("https://www.universityliving.com/")

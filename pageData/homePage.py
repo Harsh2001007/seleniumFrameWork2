@@ -155,6 +155,12 @@ class Homepageclass:
         "//button[@class='z-[2] p-1.5 absolute rounded-full border leading-none outline-none focus:outline-none transition-colors -top-2 -right-2 md:-top-3 md:-right-3 bg-white border-gray-300 hover:bg-gray-100']",
     )
 
+    # -------------------------------------- Request widgets ---------------------------------
+
+    callIcon_selector = (By.ID, "supportSystem")
+    getACallIcon_selector = (By.XPATH, "(//div[@class='relative']/div)[2]")
+    whatsappIcon_selector = (By.XPATH, "(//div[@class='relative']/div)[1]")
+
     # ------------------------------Methods ------------------------------
     def searchbar(self):
         return self.driver.find_element(*Homepageclass.searchbarSelector)
@@ -370,3 +376,14 @@ class Homepageclass:
 
     def closeBtnSubscribe(self):
         return self.driver.find_element(*Homepageclass.closeBtnSubscribe_selector)
+
+    # ------------------------------ call icon widget methods -------------------------
+
+    def callIcon(self):
+        return self.driver.find_element(*Homepageclass.callIcon_selector)
+
+    def getACall(self):
+        return self.driver.find_element(*Homepageclass.getACallIcon_selector)
+
+    def whatsapp(self):
+        return self.driver.find_element(*Homepageclass.whatsappIcon_selector)

@@ -1,0 +1,246 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Accommodation",
+        "name": "Chapter Old street",
+        "image": [
+          "https://cdn.universityliving.com/cms/MrOSetNjvIdvYUbEeh2jotPLMmOHp8.webp",
+          "https://cdn.universityliving.com/cms/IM2VtnqLCMlqQpReDot8vaM4XMb7ni.webp",
+          "https://cdn.universityliving.com/cms/RrssMERqn9gepxAm9fGvUiS4NbwQVZ.webp"
+        ],
+        "priceRange": "£314/week",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": 4,
+          "reviewCount": 1
+        },
+        "url": "https://www.universityliving.com/united-kingdom/london/property/chapter-old-street"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Accommodation",
+        "name": "Scape Mile End Canalside",
+        "image": [
+          "https://cdn.universityliving.com/images/sCu3wzY3QG6FFfphpUyb.jpeg",
+          "https://cdn.universityliving.com/cms/x3hhaCqLId2nr0E3IuJkmKSrrtxrIi.jpg",
+          "https://cdn.universityliving.com/cms/Sz0HEvqbvdiwEJ50hY8fQjCTSBr5HL.jpg"
+        ],
+        "priceRange": "£340/week",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": 4,
+          "reviewCount": 5
+        },
+        "url": "https://www.universityliving.com/united-kingdom/london/property/scape-mile-end-canalside"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Accommodation",
+        "name": "Rathbone Place",
+        "image": [
+          "https://cdn.universityliving.com/images/aHMQ8vVpSTaHZeehP2F2.jpeg",
+          "https://cdn.universityliving.com/cms/O9ABRIv2TVxak0MBCFJH0ijB8fvcLb.jpg",
+          "https://cdn.universityliving.com/images/lmCThQkFSbSLPuoL2bwm.jpeg"
+        ],
+        "priceRange": "£310/week",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": 5,
+          "reviewCount": 1
+        },
+        "url": "https://www.universityliving.com/united-kingdom/london/property/rathbone-place"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Accommodation",
+        "name": "Bloomsbury Janet Poole House",
+        "image": [
+          "https://cdn.universityliving.com/images/2KgmSVjqTYGfpeUOCc2s.jpeg",
+          "https://cdn.universityliving.com/images/omOONY7STHKFKaltsvk8.jpeg",
+          "https://cdn.universityliving.com/images/lwKlzGCOTQ6mbBNc8ZO0.jpeg"
+        ],
+        "priceRange": "£355/week",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": 4,
+          "reviewCount": 1
+        },
+        "url": "https://www.universityliving.com/united-kingdom/london/property/bloomsbury-janet-poole-house"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Accommodation",
+        "name": "iQ Bloomsbury",
+        "image": [
+          "https://cdn.universityliving.com/cms/A7NIhyueUD6UUrHNazviG6fvnFBAhi.jpg",
+          "https://cdn.universityliving.com/cms/BoaLn7zFGNi7rPuSrYwRoSqMyHA86D.jpg",
+          "https://cdn.universityliving.com/cms/OIpATCrJKUSzfJQDU6DlT9bOY9ekQw.jpg"
+        ],
+        "priceRange": "£609/week",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": 4,
+          "reviewCount": 1
+        },
+        "url": "https://www.universityliving.com/united-kingdom/london/property/iq-bloomsbury"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "Accommodation",
+        "name": "Scape Bloomsbury",
+        "image": [
+          "https://cdn.universityliving.com/images/eItiANCORoW1sSRlWbt7.jpeg",
+          "https://cdn.universityliving.com/cms/1OfvUWkQEYIP6C2h6y8A0rqKk9qFeQ.jpg",
+          "https://cdn.universityliving.com/cms/7VivpVLHQWIQr6XxUXftmwYQ8yUGFk.jpg"
+        ],
+        "priceRange": "£309/week",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": 4,
+          "reviewCount": 4.683333333333334
+        },
+        "url": "https://www.universityliving.com/united-kingdom/london/property/scape-bloomsbury"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "Accommodation",
+        "name": "Scape Kings Cross",
+        "image": [
+          "https://cdn.universityliving.com/cms/ue0PE4f6WSZFxXQKkcGcZMfXWqggSB.jpg",
+          "https://cdn.universityliving.com/cms/wiis9XFvic0qhQwIMcqjFLZHRU2R5p.jpg",
+          "https://cdn.universityliving.com/cms/6a20kGNfLNnQ6mLEs5pl6qezG8evqa.jpg"
+        ],
+        "priceRange": "£619/week",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": 4,
+          "reviewCount": 1
+        },
+        "url": "https://www.universityliving.com/united-kingdom/london/property/kings-cross"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "Accommodation",
+        "name": "Grosvenor House",
+        "image": [
+          "https://cdn.universityliving.com/cms/oSXWKQI5EfgAzvReauE9BP6VhD3aWe.jpeg",
+          "https://cdn.universityliving.com/cms/5I8bfqkjtGXJQuSF7hGvYhJe5g2LEu.jpg",
+          "https://cdn.universityliving.com/cms/8R5zOnwIUGBV72zG9RvQmHqPei6sle.jpg"
+        ],
+        "priceRange": "£569/week",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": 4,
+          "reviewCount": 1
+        },
+        "url": "https://www.universityliving.com/united-kingdom/london/property/grosvenor-house"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "item": {
+        "@type": "Accommodation",
+        "name": "South Bank Residence",
+        "image": [
+          "https://cdn.universityliving.com/cms/oyNKxGcNo7zBmok9RAzzJuh5ykTSAl.jpg",
+          "https://cdn.universityliving.com/cms/jJiiUDYa9UjkxwTGbiOENI0OPUaKo1.jpg",
+          "https://cdn.universityliving.com/cms/Qt3NYp713ElckDY0OrMgab25VGOWCq.jpg"
+        ],
+        "priceRange": "£555/week",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": 5,
+          "reviewCount": 1
+        },
+        "url": "https://www.universityliving.com/united-kingdom/london/property/chapter-south-bank"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "item": {
+        "@type": "Accommodation",
+        "name": "Goldsmiths House",
+        "image": [
+          "https://cdn.universityliving.com/cms/q8ICeFz816Jtsq5IDMduql07vctqTn.jpg",
+          "https://cdn.universityliving.com/cms/RLNWI9ypPks9RZVJMeG6DcphkQ9bc1.jpg",
+          "https://cdn.universityliving.com/cms/eS5ZDmbZ59uioGeJjZD7rHHeiQQ7ej.jpg"
+        ],
+        "priceRange": "£224/week",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": 4,
+          "reviewCount": 1
+        },
+        "url": "https://www.universityliving.com/united-kingdom/london/property/goldsmiths-house"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "item": {
+        "@type": "Accommodation",
+        "name": "Paddington Citi View",
+        "image": [
+          "https://cdn.universityliving.com/cms/fRRH4V7rOWNmxUJjkqFexx5fbke2xL.webp",
+          "https://cdn.universityliving.com/cms/3E8zMUklBAIPidU9hMlS4BmLgyiWpA.webp",
+          "https://cdn.universityliving.com/cms/vKvBzGtAy0H9iP0b4vNoxG26eFWz3V.webp"
+        ],
+        "priceRange": "£425/week",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": 4.5,
+          "reviewCount": 1
+        },
+        "url": "https://www.universityliving.com/united-kingdom/london/property/citi-view"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "item": {
+        "@type": "Accommodation",
+        "name": "Helen Graham House",
+        "image": [
+          "https://cdn.universityliving.com/cms/Jzx79TlHkmllDz6ij0QuR67tKljTKA.jpg",
+          "https://cdn.universityliving.com/cms/1gvYpzVX7mpYypqyz0ZRJ8876w7Gmt.webp",
+          "https://cdn.universityliving.com/cms/d2C15d4wHDRDc3zJ8RW1ozPpuubleu.webp"
+        ],
+        "priceRange": "£191/week",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": 4,
+          "reviewCount": 1
+        },
+        "url": "https://www.universityliving.com/united-kingdom/london/property/hlen-graham-house"
+      }
+    }
+  ]
+}
