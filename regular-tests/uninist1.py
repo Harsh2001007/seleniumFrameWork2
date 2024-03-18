@@ -10,6 +10,7 @@ N = 10
 
 # List of URLs to automate
 urls = [
+    "https://uninist.com/student-accommodations-liverpool",
     "https://uninist.com/student-accommodations-birmingham",
     "https://uninist.com/student-accommodations-sheffield",
     "https://uninist.com/student-accommodations-manchester",
@@ -30,11 +31,12 @@ for url in urls:
     res = "".join(random.choices(string.ascii_lowercase + string.digits, k=N))
     new_email = res + "@yopmail.com"
     new_phoneNumber = "".join([str(random.randint(0, 9)) for i in range(10)])
-    # Open the webpage
     driver.get(url)
 
-    # Wait for the page to load
     time.sleep(3)
+
+    urlLastWord = url.split("/")[-1]
+    cityName = urlLastWord.split("-")[-1]
 
     print("for the url -->", url)
 
@@ -43,7 +45,7 @@ for url in urls:
     first_name_field.send_keys("Test")
 
     last_name_field = driver.find_element(By.NAME, "lName")
-    last_name_field.send_keys("Test")
+    last_name_field.send_keys("Test " + cityName)
 
     email_field = driver.find_element(By.NAME, "fEmail")
     email_field.send_keys(new_email)
