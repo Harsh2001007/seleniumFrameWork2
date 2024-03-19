@@ -9,7 +9,7 @@ import logging
 
 logging.basicConfig(
     level=logging.INFO,
-    filename="C://Users//TUL//Desktop//selenium_things//selenium_framework//logs&Repos//Uninist-Logs//test.log",
+    filename="C://Users//TUL//Desktop//selenium_things//selenium_framework//logs&Repos//Uninist-Logs//city_form_data.log",
     filemode="w",
     format="%(asctime)s %(levelname)s %(message)s",
 )
