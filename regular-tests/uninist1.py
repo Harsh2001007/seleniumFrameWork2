@@ -5,6 +5,14 @@ import time
 import random
 import string
 from selenium.webdriver.common.keys import Keys
+import logging
+
+logging.basicConfig(
+    level=logging.INFO,
+    filename="C://Users//TUL//Desktop//selenium_things//selenium_framework//logs&Repos//Uninist-Logs//test.log",
+    filemode="w",
+    format="%(asctime)s %(levelname)s %(message)s",
+)
 
 N = 10
 
@@ -39,59 +47,79 @@ for url in urls:
     cityName = urlLastWord.split("-")[-1]
 
     print("for the url -->", url)
+    logging.info("url ->", url)
 
-    # Find and fill out the fields
+    # First Name field
     first_name_field = driver.find_element(By.NAME, "fName")
     first_name_field.send_keys("Test")
+    logging.info("First name -> Test ")
 
+    # Last Name field
     last_name_field = driver.find_element(By.NAME, "lName")
-    last_name_field.send_keys("Test " + cityName)
+    last_name_field.send_keys("test" + cityName)
+    logging.info("Last name -> test", cityName)
 
+    # Email Field
     email_field = driver.find_element(By.NAME, "fEmail")
     email_field.send_keys(new_email)
     print(new_email)
+    logging.info("used email -> ", new_email)
 
+    # handling Flag
     flag = driver.find_element(By.XPATH, "//div[@class='iti__selected-flag']")
     flag.click()
 
+    # handling Phone Number Country search bar
     phone_country_code = driver.find_element(By.XPATH, "//input[@placeholder='Search']")
     phone_country_code.send_keys("india")
 
+    # Handling Indian Flag Selection
     indiaCountryFlag = driver.find_element(By.XPATH, "//span[text()='India']")
     indiaCountryFlag.click()
 
+    # Handling Phone Number Field (insertion)
     phone_field = driver.find_element(By.ID, "phone")
     phone_field.send_keys(new_phoneNumber)
     print(new_phoneNumber)
+    logging.info("phone number used -> ", new_phoneNumber)
 
+    # Handling home country field
     home_country_field = driver.find_element(By.NAME, "nationality")
     homeCountry = Select(home_country_field)
     homeCountry.select_by_index(2)
 
+    # Handling preferred budget field
     preferred_budget_field = driver.find_element(By.NAME, "fBudgets")
     preferedBudget = Select(preferred_budget_field)
     preferedBudget.select_by_index(2)
 
+    # Handling message field
     message_field = driver.find_element(By.NAME, "fMessage")
     message_field.send_keys("This is a test message.")
+    logging.info("test message -> This is a test message.")
 
+    # Handling check out date field
     check_out_date_field = driver.find_element(By.NAME, "fCheckOut")
     check_out_date_field.click()
     time.sleep(2)
     checkoutdate30 = driver.find_element(By.XPATH, "//td[text()='30']")
     checkoutdate30.click()
     print("check out date -> 30th of current month")
+    logging.info("check out date -> 30th of current month")
 
+    # Handling checkbox element
     checkbox_element = driver.find_element(By.ID, "flexRadioDefault1")
     checkbox_element.click()
 
+    # Handling check in date field
     check_in_date_field = driver.find_element(By.NAME, "fCheckIn")
     check_in_date_field.click()
     time.sleep(3)
     check_in_date_field.send_keys(Keys.ENTER)
     print("check in date in today's date")
+    logging.info("check in date in today's date")
 
-    # Example: Find the "Submit" button and click it
+    # Handling submit button
     submit_button = driver.find_element(
         By.XPATH, "//button[text()=' Find a room for me ']"
     )
@@ -101,6 +129,3 @@ for url in urls:
 
 # Close the WebDriver
 driver.quit()
-
-
-# This script will iterate over each URL, fill out the fields on the webpage, and submit the form. Make sure to replace "University Name" with the appropriate university name if needed and adjust other field locators and values based on the actual structure of the webpages. Also, ensure that you have the correct WebDriver installed and its path provided in the script.
